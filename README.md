@@ -28,8 +28,11 @@ cell for the overlapping time window is the cell that registered the longest eve
 
 Below a visual representation of the logic behind the algorithm.
 
+1. CDR raw data visualization:
 <img src="./img/f1.PNG" height="400" width="400"/>
+2. Dwelling algorithm - Merging step
 <img src="./img/f2.PNG" height="300" width="400"/>
+3. Dwelling algorithm - Overlapping step
 <img src="./img/f3.PNG" height="300" width="400"/>
 
 
