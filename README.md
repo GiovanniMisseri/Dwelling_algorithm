@@ -35,4 +35,17 @@ Below a visual representation of the logic behind the algorithm.
 3. Dwelling algorithm - Overlapping step
 <img src="./img/f3.PNG" height="300" width="400"/>
 
+# DwellinG use
+
+Below an example of input data:
+<img src="./img/f3.PNG"/>
+
+Generally the information we need are the following:
+- 'start_time' and 'end_time' of the session, so of the observation.
+- 'imsi' is an encrypted code, unique for each sim. This variable is ideally the identification number of the sim producing the event, actually for privacy reason it’s encrypted. We will perform our analysis considering this as the id_variable.
+- 'cell_id' is the identification number of the cell on which the event is registered.
+
+The 'DwellinG' function takes a pyspark dataframe with the features listed above and outputs the location estimate for each person in the df.
+
+
 
