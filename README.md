@@ -38,7 +38,7 @@ Below a visual representation of the logic behind the algorithm.
 # DwellinG use
 
 Below an example of input data:
-<img src="./img/f3.PNG"/>
+<img src="./img/cdr.PNG"/>
 
 Generally the information we need are the following:
 - 'start_time' and 'end_time' of the session, so of the observation.
